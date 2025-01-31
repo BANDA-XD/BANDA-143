@@ -1,7 +1,3 @@
-#!/data/data/com.termux/files/usr/bin/python
-import platform,os
-#####
+import os
 os.system("git pull")
-bit = platform.architecture()[0]
-elif bit == '32bit':
-    import old
+import p64
