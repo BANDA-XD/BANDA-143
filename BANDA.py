@@ -1,4 +1,9 @@
-import os
-os.system("xdg-open https://chat.whatsapp.com/JnV9Hx4YLhUBHuWFtzoumb")
-os.system("chmod 777 BANDA32;./BANDA32")
-os.system("chmod 777 BANDA;./BANDA")
+#!/data/data/com.termux/files/usr/bin/python
+import platform,os
+#####
+os.system("git pull")
+bit = platform.architecture()[0]
+if bit == '64bit':
+    import BANDA
+elif bit == '32bit':
+    import BANDA32
