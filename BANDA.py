@@ -1,3 +1,3 @@
 import os, sys
 try:
-import BANDA
+python BANDA
